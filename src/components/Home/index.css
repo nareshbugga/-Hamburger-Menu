@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .lg-home-image {
+    width: 80%;
+  }
+  .sm-home-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sm-home-image {
+    width: 50%;
+  }
+  .lg-home-image {
+    display: none;
+  }
+}

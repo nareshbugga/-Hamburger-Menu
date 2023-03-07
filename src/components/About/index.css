@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.About-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .lg-about-image {
+    width: 80%;
+  }
+  .sm-about-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sm-about-image {
+    width: 50%;
+  }
+  .lg-about-image {
+    display: none;
+  }
+}

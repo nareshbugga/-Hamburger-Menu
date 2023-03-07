@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.Header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 3px 0px #dcdcdc;
+  padding: 15px;
+}
+.website-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+.hamburger-button {
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.trigger-button {
+  background-color: transparent;
+  border: none;
+}
+.popup-content {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 300vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.close-icon {
+  font-size: 30px;
+}
+.items-container {
+  display: flex;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.nav-icon {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.item {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.nav-items {
+  margin-left: 500px;
+  margin-top: 200px;
+}
